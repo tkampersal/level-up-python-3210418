@@ -1,4 +1,8 @@
 def sort_words(words):
+    print("parameter: " + words)
+    print(f"split: {words.split()}")
+    print(f"sorted1: {sorted(words.split())}")
+    print(f"sorted2: {sorted(words.split(), key=str.casefold)}")
     return ' '.join(sorted(words.split(), key=str.casefold))
 
 

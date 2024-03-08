@@ -10,5 +10,8 @@ def schedule_function(event_time, function, *args):
 
 # commands used in solution video for reference
 if __name__ == '__main__':
-    schedule_function(time.time() + 1, print, 'Howdy!')
-    schedule_function(time.time() + 1, print, 'Howdy!', 'How are you?')
+    print(f'{time.asctime(time.localtime())}')
+    schedule_function(time.time() + 3, print, 'Howdy!')
+    schedule_function(time.time() + 10, print, 'Howdy!', 'How are you?')
+    print(f'{time.asctime(time.localtime())}')
+    

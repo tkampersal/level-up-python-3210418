@@ -11,5 +11,5 @@ def generate_passphrase(num_words, wordlist_path='diceware.wordlist.asc'):
 
 # commands used in solution video for reference
 if __name__ == '__main__':
-    print(generate_passphrase(7))
-    print(generate_passphrase(7))
+    print(generate_passphrase(4))
+    print(generate_passphrase(4))
